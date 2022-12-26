@@ -1,200 +1,219 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DetailsActivity2">
 
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/tehjahebesar"
-        android:layout_marginTop="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-
     <LinearLayout
-        android:id="@+id/foodOrange"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginRight="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="20dp"
-        android:orientation="horizontal"
-        android:gravity="center_vertical"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageView2">
+        android:orientation="vertical">
 
-
-        <LinearLayout
-            android:layout_weight="1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/pbold"
-                android:text="Teh Jahe"
-                android:textColor="#212131"
-                android:textSize="22dp"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/pregular"
-                android:text="Minuman"
-                android:textColor="#cbccd5"
-                android:textSize="16dp"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/pmedium"
-                android:text="4.7"
-                android:layout_marginRight="4dp"
-                android:textColor="#212131"
-                android:textSize="16dp"/>
-
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/icon_star"/>
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/imageView3"
-        android:text="Minuman teh jahe yang dapat\nmenghangatkan tubuh dan memiliki\nbanyak khasiat."
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/foodOrange"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="16dp"
-        android:fontFamily="@font/pregular"
-        android:textSize="16dp"
-        android:textColor="#212131"
-        android:lineHeight="28dp"/>
-
-    <LinearLayout
-        android:id="@+id/linierLayout"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="24dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageView3">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/pbold"
-            android:text="Tampilan"
-            android:layout_marginBottom="12dp"
-            android:textColor="#212131"
-            android:textSize="16dp"/>
-
-
-        <LinearLayout
-            android:id="@+id/foodOrange2"
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center_vertical">
+            android:layout_height="match_parent"
+            tools:context=".DetailsActivity2">
+
 
             <ImageView
+                android:id="@+id/imageView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="16dp"
-                android:src="@drawable/tehjahe"/>
+                android:src="@drawable/detailbtp"
+                android:layout_marginTop="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
 
-            <ImageView
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:id="@+id/foodOrange"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="16dp"
-                android:src="@drawable/tehjahe"/>
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="16dp"
-                android:src="@drawable/tehjahe"/>
-
-
+                android:layout_marginRight="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/imageView2">
 
 
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
-        </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/pbold"
+                        android:text="Budidaya Tanaman Pangan"
+                        android:textColor="#212131"
+                        android:textSize="22dp"/>
 
-    </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/pregular"
+                        android:text="Jurusan"
+                        android:textColor="#cbccd5"
+                        android:textSize="16dp"/>
+
+                </LinearLayout>
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center_vertical"
-        app:layout_constraintTop_toBottomOf="@+id/linierLayout"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginLeft="24dp"
-        android:layout_marginRight="24dp"
-        android:layout_marginTop="35dp">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_weight="1">
+            </LinearLayout>
 
             <TextView
+                android:id="@+id/imageView3"
+                android:text="Budidaya Tanaman Pangan adalah jurusan\nyang menyelenggarakan pendidikan vokasi, penelitian dan pengabdian masyarakat\ndi bidang budidaya tanaman pangan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/psemibold"
-                android:text="Rp. 7.000"
-                android:textColor="#212131"
-                android:textSize="22dp"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/foodOrange"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="16dp"
                 android:fontFamily="@font/pregular"
-                android:text="/Porsi"
-                android:textColor="#cbccd5"
-                android:textSize="16dp"/>
+                android:textSize="16dp"
+                android:textColor="#212131"
+                android:lineHeight="28dp"/>
 
-        </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linierLayout"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/imageView3">
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/buttonbeli2"
-            android:background="@drawable/bg_btn_primary"
-            android:layout_width="190dp"
-            android:layout_height="wrap_content"
-            android:text="Beli"
-            android:textColor="#fff"
-            android:textSize="24dp"
-            android:fontFamily="@font/psemibold"
-            android:textAllCaps="false"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/pbold"
+                    android:text="Visi"
+                    android:layout_marginBottom="12dp"
+                    android:textColor="#212131"
+                    android:textSize="16dp"/>
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/pregular"
+                    android:text="Penghasil tenaga ahli profesional terampil dan inovatif dalam menunjang peningkatan produksi pangan, pembenihan dan agribisnis hortikultura termasuk kultur jaringan melalui pengajaran yang berkualitas, penelitian\nterapan serta pengabdian masyarakat"
+                    android:layout_marginBottom="12dp"
+                    android:textColor="#212131"
+                    android:textSize="16dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linierLayout2"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/linierLayout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/pbold"
+                    android:text="Misi"
+                    android:layout_marginBottom="12dp"
+                    android:textColor="#212131"
+                    android:textSize="16dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/pregular"
+                    android:text="1) Komitmen pada pendidikan dan pengajaran berkualitas untuk menghasilkan lulusan terbaik yang dapat mendukung upaya peningkatan produksi pangan dan benih nasional serta mampu mengembangkan bisnis hortikultura."
+                    android:layout_marginBottom="12dp"
+                    android:textColor="#212131"
+                    android:textSize="16dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/pregular"
+                    android:text="2) Mengimplementasikan penelitian terapan dan pengabdian kepada masyarakat dalam bidang teknologi produksi tanaman pangan, benih serta produksi tanaman hortikultura dan kultur jaringan guna mendukung pencapaian ketahanan pangan nasional"
+                    android:layout_marginBottom="12dp"
+                    android:textColor="#212131"
+                    android:textSize="16dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linierLayout3"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/linierLayout2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/pbold"
+                    android:text="Program Studi Yang Tersedia:"
+                    android:layout_marginBottom="12dp"
+                    android:textColor="#212131"
+                    android:textSize="16dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/pregular"
+                    android:text="1) D3 Holtikultura"
+                    android:layout_marginBottom="12dp"
+                    android:textColor="#212131"
+                    android:textSize="16dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/pregular"
+                    android:text="2) D3 Produksi Tanaman Pangan"
+                    android:layout_marginBottom="12dp"
+                    android:textColor="#212131"
+                    android:textSize="16dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/pregular"
+                    android:text="3) D4 Teknologi Pembenihan"
+                    android:layout_marginBottom="12dp"
+                    android:textColor="#212131"
+                    android:textSize="16dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:fontFamily="@font/pregular"
+                    android:text="4) D4 Teknologi Produksi Tanaman Holtikultura"
+                    android:textColor="#212131"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

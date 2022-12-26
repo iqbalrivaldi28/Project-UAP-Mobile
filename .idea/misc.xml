@@ -5,16 +5,50 @@
       <map>
         <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/drawable/bg_btn_primary.xml" value="0.113" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/drawable/bg_gray.xml" value="0.113" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/drawable/card_border.xml" value="0.1315" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_administrasipajak.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_agribisnispangan.xml" value="0.1859375" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_akutanasipajak.xml" value="0.1859375" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_akutansibisnisdigital.xml" value="0.1859375" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_budidayaperikanan.xml" value="0.19746376811594202" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_details.xml" value="0.184375" />
-        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_details2.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_details2.xml" value="0.25" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_details3.xml" value="0.184375" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_details4.xml" value="0.184375" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_details5.xml" value="0.184375" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_form.xml" value="0.22" />
-        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_holtikultura.xml" value="0.184375" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_main2.xml" value="0.21" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_manajemeninformatika.xml" value="0.1859375" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_misi.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_mp.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_pengelolaanagribisnis.xml" value="0.1859375" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_pengelolaankebunkopi.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_pengelolaanpatisari.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_pengelolaanperhotelan.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_pengembanganagro.xml" value="0.1859375" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_perikanantangkap.xml" value="0.1859375" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_perjalananwisata.xml" value="0.1859375" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_pmip.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_produksiternak.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_ptp.xml" value="0.184375" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_ptperkebunan.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_sejarah.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_tech_pembenihan.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_teknologipembenihanikan.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_teknologiproduksiternak.xml" value="0.1859375" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_teknologirekayasainternet.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_tepa.xml" value="0.1859375" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_tpth.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_trki.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_trkjj.xml" value="0.1859375" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_tsl.xml" value="0.1859375" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_tujuan.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/activity_visi.xml" value="0.19746376811594202" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/fragment_beliragment.xml" value="0.19746376811594202" />
-        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/fragment_beranda.xml" value="0.2" />
-        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/fragment_pesan.xml" value="0.22" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/fragment_beranda.xml" value="0.25" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/fragment_pesan.xml" value="0.1" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/layout/fragment_profil.xml" value="0.25" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/TugasMobileIqbal/app/src/main/res/menu/bottom_navigation.xml" value="0.18" />
       </map>

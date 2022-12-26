@@ -14,13 +14,6 @@ public class DetailsActivity3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details3);
 
-        Button bt1 = (Button) findViewById(R.id.buttonbeli3);
-        bt1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(DetailsActivity3.this, FormActivity.class);
-                startActivity(intent);
-            }
-        });
+
     }
 }

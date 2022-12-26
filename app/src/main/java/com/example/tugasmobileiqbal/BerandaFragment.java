@@ -19,7 +19,6 @@ public class BerandaFragment extends Fragment {
         // Required empty public constructor
     }
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -58,6 +57,51 @@ public class BerandaFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getActivity(), DetailsActivity4.class);
+                startActivity(intent);
+            }
+        });
+
+        LinearLayout viewById4 = (LinearLayout) rootView.findViewById(R.id.foodTeh2);
+        viewById4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), DetailsActivity5.class);
+                startActivity(intent);
+            }
+        });
+
+        LinearLayout viewById5 = (LinearLayout) rootView.findViewById(R.id.cate_bread);
+        viewById5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), SejarahActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        LinearLayout viewById6 = (LinearLayout) rootView.findViewById(R.id.cate_bread2);
+        viewById6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), VisiActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        LinearLayout viewById7 = (LinearLayout) rootView.findViewById(R.id.cate_healthy);
+        viewById7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), MisiActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        LinearLayout viewById8 = (LinearLayout) rootView.findViewById(R.id.cate_healthy2);
+        viewById8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), TujuanActivity.class);
                 startActivity(intent);
             }
         });

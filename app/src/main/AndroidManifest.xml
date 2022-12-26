@@ -14,6 +14,105 @@
         android:theme="@style/Theme.TugasMobileIqbal"
         tools:targetApi="31">
         <activity
+            android:name=".TeknologirekayasainternetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PengelolaanperhotelanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AkutansibisnisdigitalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AkutanasipajakActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AgribisnispanganActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PengelolaanagribisnisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PerjalananwisataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManajemeninformatikaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdministrasipajakActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TeknologipembenihanikanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TeknologiproduksiternakActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PerikanantangkapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BudidayaperikananActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProduksiternakActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PengembanganagroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TrkjjActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TrkiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TepaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TslActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PengelolaanpatisariActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PengelolaankebunkopiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PmipActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PtperkebunanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TpthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TechPembenihanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PtpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HoltikulturaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TujuanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MisiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VisiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SejarahActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailsActivity5"
+            android:exported="false" />
+        <activity
             android:name=".DetailsActivity4"
             android:exported="false" />
         <activity
@@ -21,9 +120,6 @@
             android:exported="false" />
         <activity
             android:name=".DetailsActivity2"
-            android:exported="false" />
-        <activity
-            android:name=".FormActivity"
             android:exported="false" />
         <activity
             android:name=".DetailsActivity"

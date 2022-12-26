@@ -10,11 +10,11 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="150dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/onboarding_illustration" />
+        app:srcCompat="@drawable/logo_depan" />
 
     <TextView
         android:id="@+id/textView"
@@ -23,8 +23,8 @@
         android:layout_marginLeft="24dp"
         android:textSize="16dp"
         android:fontFamily="@font/pregular"
-        android:layout_marginTop="50dp"
-        android:text="IqbalApps"
+        android:layout_marginTop="100dp"
+        android:text="MyApps"
         android:textColor="#cbccd5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -33,11 +33,11 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_marginLeft="24dp"
-        android:textSize="36dp"
+        android:textSize="25dp"
         android:textColor="#212132"
         android:layout_marginTop="4dp"
         android:layout_height="wrap_content"
-        android:text="Temukan\nMakanan Favorit"
+        android:text="Woderfull\nPoliteknik Negeri Lampung"
         android:fontFamily="@font/pbold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"/>
@@ -48,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="Ayoo Kita Mulai!"
+        android:text="Mulai Menjelajah!"
         android:textColor="#fff"
         android:textSize="16dp"
         android:fontFamily="@font/psemibold"

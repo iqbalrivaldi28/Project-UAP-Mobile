@@ -16,10 +16,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="33dp"
             android:layout_marginLeft="16dp"
+            android:layout_marginTop="33dp"
             android:fontFamily="@font/pbold"
-            android:text="Menu Favofite"
+            android:text="Program Studi di Polinela"
             android:textAlignment="center"
             android:textColor="#212131"
             android:textSize="22dp" />
@@ -44,44 +44,43 @@
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/rendangg" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBottom="@+id/rendang"
-                    android:layout_centerInParent="true"
-                    android:text="Rendang"
-                    android:textAllCaps="true"
-                    android:textColor="#FFFFFF"
-                    android:textSize="35sp"
-                    android:textStyle="bold"/>
+                    android:src="@drawable/btpp" />
 
                 <TextView
                     android:id="@+id/tv_rendang"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="16dp"
-                    android:text="Rendang dengan rasa yang nendang"
-                    android:layout_below="@+id/rendang"/>
+                    android:layout_below="@+id/rendang"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/pbold"
+                    android:text="D3 Holtikultura"
+                    android:textColor="#212131" />
 
-                <ImageView
-                    android:id="@+id/iv_favorite"
-                    android:layout_width="30dp"
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_rendang"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#50C2C9"
+                    android:text="Lihat" />
+
+                <TextView
+                    android:id="@+id/iv_favorite1"
+                    android:layout_width="wrap_content"
                     android:layout_height="30dp"
-                    android:src="@drawable/icon_star"
+                    android:layout_below="@+id/tv_rendang"
                     android:layout_alignParentRight="true"
-                    android:layout_margin="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
                     android:scaleType="fitXY"
-                    android:layout_below="@+id/tv_rendang"/>
+                    android:text="Jurusan Budidaya Tanaman Pangan" />
 
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:src="@drawable/icon_star"
-                    android:layout_toLeftOf="@+id/iv_favorite"
-                    android:layout_margin="10dp"
-                    android:layout_below="@+id/tv_rendang"/>
 
             </RelativeLayout>
 
@@ -110,44 +109,44 @@
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/lontong" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBottom="@+id/lontong"
-                    android:layout_centerInParent="true"
-                    android:text="Lontong"
-                    android:textAllCaps="true"
-                    android:textColor="#FFFFFF"
-                    android:textSize="35sp"
-                    android:textStyle="bold"/>
+                    android:src="@drawable/btpp" />
 
                 <TextView
                     android:id="@+id/tv_lontong"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="16dp"
-                    android:text="Lontong sayur teman untuk sarapan"
-                    android:layout_below="@+id/lontong"/>
+                    android:layout_below="@+id/lontong"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/pbold"
+                    android:text="D3 Produksi Tanaman Pangan"
+                    android:textColor="#212131" />
 
-                <ImageView
+                <Button
+                    android:id="@+id/btn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_lontong"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#50C2C9"
+                    android:text="Lihat" />
+
+                <TextView
                     android:id="@+id/iv_favorite2"
-                    android:layout_width="30dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="30dp"
-                    android:src="@drawable/icon_star"
+                    android:layout_below="@+id/tv_lontong"
                     android:layout_alignParentRight="true"
-                    android:layout_margin="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
                     android:scaleType="fitXY"
-                    android:layout_below="@+id/tv_lontong"/>
+                    android:text="Jurusan Budidaya Tanaman Pangan" />
 
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:src="@drawable/icon_star"
-                    android:layout_toLeftOf="@+id/iv_favorite2"
-                    android:layout_margin="10dp"
-                    android:layout_below="@+id/tv_lontong"/>
+
 
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
@@ -177,44 +176,44 @@
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/nasgor" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBottom="@+id/nasgor"
-                    android:layout_centerInParent="true"
-                    android:text="Nasi Goreng"
-                    android:textAllCaps="true"
-                    android:textColor="#FFFFFF"
-                    android:textSize="35sp"
-                    android:textStyle="bold"/>
+                    android:src="@drawable/btpp" />
 
                 <TextView
                     android:id="@+id/tv_nasgor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="16dp"
-                    android:text="Nasi Goreng Rendang yang nikmas"
-                    android:layout_below="@+id/nasgor"/>
+                    android:layout_below="@+id/nasgor"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/pbold"
+                    android:text="D4 Teknologi Pembenihan"
+                    android:textColor="#212131" />
 
-                <ImageView
+                <Button
+                    android:id="@+id/btn3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_nasgor"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#50C2C9"
+                    android:text="Lihat" />
+
+                <TextView
                     android:id="@+id/iv_favorite3"
-                    android:layout_width="30dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="30dp"
-                    android:src="@drawable/icon_star"
+                    android:layout_below="@+id/tv_nasgor"
                     android:layout_alignParentRight="true"
-                    android:layout_margin="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
                     android:scaleType="fitXY"
-                    android:layout_below="@+id/tv_nasgor"/>
+                    android:text="Jurusan Budidaya Tanaman Pangan" />
 
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:src="@drawable/icon_star"
-                    android:layout_toLeftOf="@+id/iv_favorite3"
-                    android:layout_margin="10dp"
-                    android:layout_below="@+id/tv_nasgor"/>
+
 
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
@@ -242,44 +241,44 @@
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/tehhangat" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBottom="@+id/tehhangat"
-                    android:layout_centerInParent="true"
-                    android:text="Teh Hangat"
-                    android:textAllCaps="true"
-                    android:textColor="#FFFFFF"
-                    android:textSize="35sp"
-                    android:textStyle="bold"/>
+                    android:src="@drawable/btpp" />
 
                 <TextView
                     android:id="@+id/tv_tehhangat"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="16dp"
-                    android:text="Teh Hangat dengan aroma yang wangi"
-                    android:layout_below="@+id/tehhangat"/>
+                    android:layout_below="@+id/tehhangat"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/pbold"
+                    android:text="D4 Teknologi Produksi Tanaman Holtikultura"
+                    android:textColor="#212131" />
 
-                <ImageView
+                <Button
+                    android:id="@+id/btn4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_tehhangat"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#50C2C9"
+                    android:text="Lihat" />
+
+                <TextView
                     android:id="@+id/iv_favorite4"
-                    android:layout_width="30dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="30dp"
-                    android:src="@drawable/icon_star"
+                    android:layout_below="@+id/tv_tehhangat"
                     android:layout_alignParentRight="true"
-                    android:layout_margin="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
                     android:scaleType="fitXY"
-                    android:layout_below="@+id/tv_tehhangat"/>
+                    android:text="Jurusan Budidaya Tanaman Pangan" />
 
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:src="@drawable/icon_star"
-                    android:layout_toLeftOf="@+id/iv_favorite4"
-                    android:layout_margin="10dp"
-                    android:layout_below="@+id/tv_tehhangat"/>
+
 
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
@@ -305,44 +304,43 @@
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/bandrekhangat" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBottom="@+id/bandrek"
-                    android:layout_centerInParent="true"
-                    android:text="Bandrek"
-                    android:textAllCaps="true"
-                    android:textColor="#FFFFFF"
-                    android:textSize="35sp"
-                    android:textStyle="bold"/>
+                    android:src="@drawable/budidaya_kebunn" />
 
                 <TextView
                     android:id="@+id/tv_bandrek"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="16dp"
-                    android:text="Bandrek dengan banyak khasiat"
-                    android:layout_below="@+id/bandrek"/>
+                    android:layout_below="@+id/bandrek"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/pbold"
+                    android:text="D3 Produksi Tanaman Perkebunan"
+                    android:textColor="#212131" />
 
-                <ImageView
+                <Button
+                    android:id="@+id/btn5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_bandrek"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#50C2C9"
+                    android:text="Lihat" />
+
+                <TextView
                     android:id="@+id/iv_favorite5"
-                    android:layout_width="30dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="30dp"
-                    android:src="@drawable/icon_star"
+                    android:layout_below="@+id/tv_bandrek"
                     android:layout_alignParentRight="true"
-                    android:layout_margin="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
                     android:scaleType="fitXY"
-                    android:layout_below="@+id/tv_bandrek"/>
+                    android:text="Jurusan Budidaya Tanaman Perkebunan" />
 
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:src="@drawable/icon_star"
-                    android:layout_toLeftOf="@+id/iv_favorite5"
-                    android:layout_margin="10dp"
-                    android:layout_below="@+id/tv_bandrek"/>
 
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
@@ -369,44 +367,45 @@
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/ketoprakk" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBottom="@+id/ketoprak"
-                    android:layout_centerInParent="true"
-                    android:text="Ketoprak"
-                    android:textAllCaps="true"
-                    android:textColor="#FFFFFF"
-                    android:textSize="35sp"
-                    android:textStyle="bold"/>
+                    android:src="@drawable/budidaya_kebunn" />
 
                 <TextView
                     android:id="@+id/tv_ketoprak"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="16dp"
-                    android:text="Ketoprak Khas dan klasik"
-                    android:layout_below="@+id/ketoprak"/>
+                    android:layout_below="@+id/ketoprak"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/pbold"
+                    android:text="D4 Produksi dan Manajemen Industri Perkebunan"
+                    android:textColor="#212131"
+                    android:textSize="12dp" />
 
-                <ImageView
+                <Button
+                    android:id="@+id/btn6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_ketoprak"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#50C2C9"
+                    android:text="Lihat" />
+
+                <TextView
                     android:id="@+id/iv_favorite6"
-                    android:layout_width="30dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="30dp"
-                    android:src="@drawable/icon_star"
+                    android:layout_below="@+id/tv_ketoprak"
                     android:layout_alignParentRight="true"
-                    android:layout_margin="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
                     android:scaleType="fitXY"
-                    android:layout_below="@+id/tv_ketoprak"/>
+                    android:text="Jurusan Budidaya Tanaman Perkebunan" />
 
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:src="@drawable/icon_star"
-                    android:layout_toLeftOf="@+id/iv_favorite6"
-                    android:layout_margin="10dp"
-                    android:layout_below="@+id/tv_ketoprak"/>
+
 
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
@@ -433,47 +432,1357 @@
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/milktea" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBottom="@+id/milktea"
-                    android:layout_centerInParent="true"
-                    android:text="Milk Tea"
-                    android:textAllCaps="true"
-                    android:textColor="#FFFFFF"
-                    android:textSize="35sp"
-                    android:textStyle="bold"/>
+                    android:src="@drawable/budidaya_kebunn" />
 
                 <TextView
                     android:id="@+id/tv_milktea"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="16dp"
-                    android:text="Milk Tea dengan cita rasa yang khas"
-                    android:layout_below="@+id/milktea"/>
+                    android:layout_below="@+id/milktea"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/pbold"
+                    android:text="D4 Pengeloaan Kebun Kopi"
+                    android:textColor="#212131" />
 
-                <ImageView
+                <Button
+                    android:id="@+id/btn7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_milktea"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#50C2C9"
+                    android:text="Lihat" />
+
+                <TextView
                     android:id="@+id/iv_favorite7"
-                    android:layout_width="30dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="30dp"
-                    android:src="@drawable/icon_star"
+                    android:layout_below="@+id/tv_milktea"
                     android:layout_alignParentRight="true"
-                    android:layout_margin="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
                     android:scaleType="fitXY"
-                    android:layout_below="@+id/tv_milktea"/>
+                    android:text="Jurusan Budidaya Tanaman Perkebunan" />
 
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:src="@drawable/icon_star"
-                    android:layout_toLeftOf="@+id/iv_favorite7"
-                    android:layout_margin="10dp"
-                    android:layout_below="@+id/tv_milktea"/>
+
 
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
+
+
+<!--    Jurusan Teknologi Pertanian-->
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card8"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card7">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/ptsari"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tekper" />
+
+                <TextView
+                    android:id="@+id/tv_ptsari"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ptsari"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/pbold"
+                    android:text="D2 Pengelolaan Patiseri"
+                    android:textColor="#212131" />
+
+                <Button
+                    android:id="@+id/btn8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_ptsari"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#50C2C9"
+                    android:text="Lihat" />
+
+                <TextView
+                    android:id="@+id/iv_favorite8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/tv_ptsari"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:text="Jurusan Teknologi Pertanian" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card9"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card8">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/tsl"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tekper" />
+
+                <TextView
+                    android:id="@+id/tv_tsl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tsl"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/pbold"
+                    android:text="D3 Teknik Sumber Daya Lahan dan Lingkungan"
+                    android:textColor="#212131"
+                    android:textSize="12dp"/>
+
+                <Button
+                    android:id="@+id/btn9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_tsl"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#50C2C9"
+                    android:text="Lihat" />
+
+                <TextView
+                    android:id="@+id/iv_favorite9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/tv_tsl"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:text="Jurusan Teknologi Pertanian" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card10"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card9">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/mp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tekper" />
+
+                <TextView
+                    android:id="@+id/tv_mp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/pbold"
+                    android:text="D3 Mekanisasi Pertanian"
+                    android:textColor="#212131" />
+
+                <Button
+                    android:id="@+id/btn10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_mp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#50C2C9"
+                    android:text="Lihat" />
+
+                <TextView
+                    android:id="@+id/iv_favorite10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/tv_mp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:text="Jurusan Teknologi Pertanian" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card11"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card10">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/tepa"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tekper" />
+
+                <TextView
+                    android:id="@+id/tv_tepa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tepa"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/pbold"
+                    android:text="D3 Teknologi Pangan"
+                    android:textColor="#212131" />
+
+                <Button
+                    android:id="@+id/btn11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_tepa"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#50C2C9"
+                    android:text="Lihat" />
+
+                <TextView
+                    android:id="@+id/iv_favorite11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/tv_tepa"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:text="Jurusan Teknologi Pertanian" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card12"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card11">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/trki"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tekper" />
+
+                <TextView
+                    android:id="@+id/tv_trki"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/trki"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/pbold"
+                    android:text="D4 Teknologi Rekayasa Kimia Industri"
+                    android:textColor="#212131" />
+
+                <Button
+                    android:id="@+id/btn12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_trki"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#50C2C9"
+                    android:text="Lihat" />
+
+                <TextView
+                    android:id="@+id/iv_favorite12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/tv_trki"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:text="Jurusan Teknologi Pertanian" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card13"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card12">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/trkjj"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tekper" />
+
+                <TextView
+                    android:id="@+id/tv_trkjj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/trkjj"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/pbold"
+                    android:text="D4 Teknologi Rekayasa Kontruksi Jalan dan Jembatan"
+                    android:textColor="#212131"
+                    android:textSize="10dp"/>
+
+                <Button
+                    android:id="@+id/btn13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_trkjj"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#50C2C9"
+                    android:text="Lihat" />
+
+                <TextView
+                    android:id="@+id/iv_favorite13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/tv_trkjj"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:text="Jurusan Teknologi Pertanian" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card14"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card13">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/ppa"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/tekper" />
+
+                <TextView
+                    android:id="@+id/tv_ppa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ppa"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/pbold"
+                    android:text="D4 Pengembangan Produki Agroindustri"
+                    android:textColor="#212131" />
+
+                <Button
+                    android:id="@+id/btn14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_ppa"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#50C2C9"
+                    android:text="Lihat" />
+
+                <TextView
+                    android:id="@+id/iv_favorite14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/tv_ppa"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:text="Jurusan Teknologi Pertanian" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+<!--        Jurusan Peternakan -->
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card15"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card14">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/pt"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ternakjurusan" />
+
+                <TextView
+                    android:id="@+id/tv_pt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/pt"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/pbold"
+                    android:text="D3 Produksi Ternak"
+                    android:textColor="#212131" />
+
+                <Button
+                    android:id="@+id/btn15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_pt"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#50C2C9"
+                    android:text="Lihat" />
+
+                <TextView
+                    android:id="@+id/iv_favorite15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/tv_pt"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:text="Jurusan Peternakan" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card16"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card15">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/bp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ternakjurusan" />
+
+                <TextView
+                    android:id="@+id/tv_bp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/bp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/pbold"
+                    android:text="D3 Budidaya Perikanan"
+                    android:textColor="#212131" />
+
+                <Button
+                    android:id="@+id/btn16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_bp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#50C2C9"
+                    android:text="Lihat" />
+
+                <TextView
+                    android:id="@+id/iv_favorite16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/tv_bp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:text="Jurusan Peternakan" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card17"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card16">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/perikanantkp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ternakjurusan" />
+
+                <TextView
+                    android:id="@+id/tv_perikanantkp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/perikanantkp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/pbold"
+                    android:text="D3 Perikanan Tangkap"
+                    android:textColor="#212131" />
+
+                <Button
+                    android:id="@+id/btn17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_perikanantkp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#50C2C9"
+                    android:text="Lihat" />
+
+                <TextView
+                    android:id="@+id/iv_favorite17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/tv_perikanantkp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:text="Jurusan Peternakan" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card18"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card17">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/tpt"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ternakjurusan" />
+
+                <TextView
+                    android:id="@+id/tv_tpt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tpt"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/pbold"
+                    android:text="D4 Teknologi Produksi Ternak"
+                    android:textColor="#212131" />
+
+                <Button
+                    android:id="@+id/btn18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_tpt"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#50C2C9"
+                    android:text="Lihat" />
+
+                <TextView
+                    android:id="@+id/iv_favorite18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/tv_tpt"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:text="Jurusan Peternakan" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card19"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card18">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/tpi"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ternakjurusan" />
+
+                <TextView
+                    android:id="@+id/tv_tpi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tpi"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/pbold"
+                    android:text="D4 Teknologi Pembenihan Ikan"
+                    android:textColor="#212131" />
+
+                <Button
+                    android:id="@+id/btn19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_tpi"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#50C2C9"
+                    android:text="Lihat" />
+
+                <TextView
+                    android:id="@+id/iv_favorite19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/tv_tpi"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:text="Jurusan Peternakan" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+<!-- Ekonomi dan Bisnis -->
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card20"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card19">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/ap"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ekbisssjurusan" />
+
+                <TextView
+                    android:id="@+id/tv_ap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ap"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/pbold"
+                    android:text="D2 Administrasi Perpajakan"
+                    android:textColor="#212131" />
+
+                <Button
+                    android:id="@+id/btn20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_ap"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#50C2C9"
+                    android:text="Lihat" />
+
+                <TextView
+                    android:id="@+id/iv_favorite20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/tv_ap"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:text="Jurusan Ekonomi dan Bisnis" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card21"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card20">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/mi"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ekbisssjurusan" />
+
+                <TextView
+                    android:id="@+id/tv_mi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mi"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/pbold"
+                    android:text="D3 Manajemen Informatika"
+                    android:textColor="#212131" />
+
+                <Button
+                    android:id="@+id/btn21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_mi"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#50C2C9"
+                    android:text="Lihat" />
+
+                <TextView
+                    android:id="@+id/iv_favorite21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/tv_mi"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:text="Jurusan Ekonomi dan Bisnis" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card22"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card21">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/pw"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ekbisssjurusan" />
+
+                <TextView
+                    android:id="@+id/tv_pw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/pw"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/pbold"
+                    android:text="D3 Perjalanan Wisata"
+                    android:textColor="#212131" />
+
+                <Button
+                    android:id="@+id/btn22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_pw"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#50C2C9"
+                    android:text="Lihat" />
+
+                <TextView
+                    android:id="@+id/iv_favorite22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/tv_pw"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:text="Jurusan Ekonomi dan Bisnis" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card23"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card22">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/pagri"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ekbisssjurusan" />
+
+                <TextView
+                    android:id="@+id/tv_pagri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/pagri"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/pbold"
+                    android:text="D4 Pengelolaan Agribisnis"
+                    android:textColor="#212131" />
+
+                <Button
+                    android:id="@+id/btn23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_pagri"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#50C2C9"
+                    android:text="Lihat" />
+
+                <TextView
+                    android:id="@+id/iv_favorite23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/tv_pagri"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:text="Jurusan Ekonomi dan Bisnis" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card24"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card23">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/agripangan"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ekbisssjurusan" />
+
+                <TextView
+                    android:id="@+id/tv_agripangan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/agripangan"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/pbold"
+                    android:text="D4 Agribisnis Pangan"
+                    android:textColor="#212131" />
+
+                <Button
+                    android:id="@+id/btn24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_agripangan"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#50C2C9"
+                    android:text="Lihat" />
+
+                <TextView
+                    android:id="@+id/iv_favorite24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/tv_agripangan"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:text="Jurusan Ekonomi dan Bisnis" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card25"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card24">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/akp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ekbisssjurusan" />
+
+                <TextView
+                    android:id="@+id/tv_akp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/akp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/pbold"
+                    android:text="D4 Akuntansi Bisnis Digital"
+                    android:textColor="#212131" />
+
+                <Button
+                    android:id="@+id/btn25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_akp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#50C2C9"
+                    android:text="Lihat" />
+
+                <TextView
+                    android:id="@+id/iv_favorite25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/tv_akp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:text="Jurusan Ekonomi dan Bisnis" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card26"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card25">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/akbd"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ekbisssjurusan" />
+
+                <TextView
+                    android:id="@+id/tv_akbd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/akbd"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/pbold"
+                    android:text="D4 Akuntansi Perpajakan"
+                    android:textColor="#212131" />
+
+                <Button
+                    android:id="@+id/btn26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_akbd"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#50C2C9"
+                    android:text="Lihat" />
+
+                <TextView
+                    android:id="@+id/iv_favorite26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/tv_akbd"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:text="Jurusan Ekonomi dan Bisnis" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card27"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card26">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/pp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ekbisssjurusan" />
+
+                <TextView
+                    android:id="@+id/tv_pp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/pp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/pbold"
+                    android:text="D4 Pengelolaan Perhotelan"
+                    android:textColor="#212131" />
+
+                <Button
+                    android:id="@+id/btn27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_pp"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#50C2C9"
+                    android:text="Lihat" />
+
+                <TextView
+                    android:id="@+id/iv_favorite27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/tv_pp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:text="Jurusan Ekonomi dan Bisnis" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card28"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card27">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/tri"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ekbisssjurusan" />
+
+                <TextView
+                    android:id="@+id/tv_tri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tri"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/pbold"
+                    android:text="D4 Teknologi Rekayasa Internet"
+                    android:textColor="#212131" />
+
+                <Button
+                    android:id="@+id/btn28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_tri"
+                    android:layout_marginLeft="10dp"
+                    android:backgroundTint="#50C2C9"
+                    android:text="Lihat" />
+
+                <TextView
+                    android:id="@+id/iv_favorite28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/tv_tri"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:text="Jurusan Ekonomi dan Bisnis" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     </RelativeLayout>
 

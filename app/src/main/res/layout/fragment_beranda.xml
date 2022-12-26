@@ -39,7 +39,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="30dp"
-                        android:src="@drawable/profil"/>
+                        android:src="@drawable/profilpolinela"/>
 
                     <LinearLayout
                         android:gravity="right"
@@ -52,7 +52,7 @@
                             android:layout_height="wrap_content"
                             android:textSize="14dp"
                             android:fontFamily="@font/pregular"
-                            android:text="IqbalApps"
+                            android:text="MyApps"
                             android:textColor="#cbccd5" />
 
                         <TextView
@@ -60,7 +60,7 @@
                             android:textSize="16dp"
                             android:textColor="#212132"
                             android:layout_height="wrap_content"
-                            android:text="M. Iqbal Rivaldi"
+                            android:text="Wonderfull Polinela"
                             android:fontFamily="@font/psemibold" />
                     </LinearLayout>
 
@@ -73,20 +73,11 @@
                     android:layout_marginTop="33dp"
                     android:textAlignment="center"
                     android:fontFamily="@font/pbold"
-                    android:text="Temukam makanan\nFavorit Kamu"
+                    android:text="Selamat Datang Di\nWonderfull Polinela Apps"
                     android:textColor="#212131"
                     android:textSize="22dp"/>
 
-                <EditText
-                    android:hint="Cari Makanan dan Minuman"
-                    android:textColorHint="#aaaaac"
-                    android:textSize="16dp"
-                    android:fontFamily="@font/pregular"
-                    android:background="@drawable/bg_gray"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:paddingLeft="24dp"
-                    android:layout_marginTop="24dp"/>
+
 
 
                 <!-- Bagian 2       -->
@@ -100,7 +91,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/pbold"
-                        android:text="CategorI"
+                        android:text="Visi dan Misi"
                         android:layout_marginBottom="12dp"
                         android:textColor="#212131"
                         android:textSize="16dp"/>
@@ -118,109 +109,89 @@
                             <LinearLayout
                                 android:id="@+id/cate_bread"
                                 android:background="@drawable/bg_gray"
-                                android:gravity="center_vertical"
+                                android:gravity="center"
                                 android:layout_marginRight="16dp"
                                 android:orientation="horizontal"
                                 android:paddingLeft="5dp"
                                 android:paddingRight="18dp"
-                                android:layout_width="wrap_content"
+                                android:layout_width="160dp"
                                 android:layout_height="50dp">
-
-                                <ImageView
-                                    android:layout_marginRight="12dp"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:src="@drawable/cate_bread"/>
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="@font/pmedium"
-                                    android:text="Roti"
+                                    android:textAlignment="center"
+                                    android:text="Sejarah Polinela"
                                     android:textColor="#212131"
                                     android:textSize="16dp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/cate_bread2"
+                                android:background="@drawable/bg_gray"
+                                android:gravity="center"
+                                android:layout_marginRight="16dp"
+                                android:orientation="horizontal"
+                                android:paddingLeft="5dp"
+                                android:paddingRight="18dp"
+                                android:layout_width="160dp"
+                                android:layout_height="50dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/pmedium"
+                                    android:text="Visi Polinela"
+                                    android:textAlignment="center"
+                                    android:textColor="#212131"
+                                    android:textSize="16dp" />
 
                             </LinearLayout>
 
                             <LinearLayout
                                 android:id="@+id/cate_healthy"
-                                android:background="@drawable/bg_gray"
-                                android:gravity="center_vertical"
+                                android:layout_width="160dp"
+                                android:layout_height="50dp"
                                 android:layout_marginRight="16dp"
+                                android:background="@drawable/bg_gray"
+                                android:gravity="center"
                                 android:orientation="horizontal"
                                 android:paddingLeft="5dp"
-                                android:paddingRight="18dp"
-                                android:layout_width="wrap_content"
-                                android:layout_height="50dp">
+                                android:paddingRight="18dp">
 
-                                <ImageView
-                                    android:layout_marginRight="12dp"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:src="@drawable/cate_carrot"/>
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="@font/pmedium"
-                                    android:text="Sayur"
+                                    android:text="Misi Polinela"
                                     android:textColor="#212131"
-                                    android:textSize="16dp"/>
-
-                            </LinearLayout>
-
-                            <LinearLayout
-                                android:id="@+id/cate_sweets"
-                                android:background="@drawable/bg_gray"
-                                android:gravity="center_vertical"
-                                android:layout_marginRight="16dp"
-                                android:orientation="horizontal"
-                                android:paddingLeft="5dp"
-                                android:paddingRight="18dp"
-                                android:layout_width="wrap_content"
-                                android:layout_height="50dp">
-
-                                <ImageView
-                                    android:layout_marginRight="12dp"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:src="@drawable/cate_donut"/>
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:fontFamily="@font/pmedium"
-                                    android:text="Donat"
-                                    android:textColor="#212131"
-                                    android:textSize="16dp"/>
+                                    android:textSize="16dp" />
 
                             </LinearLayout>
 
 
                             <LinearLayout
-                                android:id="@+id/cate_test"
-                                android:background="@drawable/bg_gray"
-                                android:gravity="center_vertical"
+                                android:id="@+id/cate_healthy2"
+                                android:layout_width="160dp"
+                                android:layout_height="50dp"
                                 android:layout_marginRight="16dp"
+                                android:background="@drawable/bg_gray"
+                                android:gravity="center"
                                 android:orientation="horizontal"
                                 android:paddingLeft="5dp"
-                                android:paddingRight="18dp"
-                                android:layout_width="wrap_content"
-                                android:layout_height="50dp">
+                                android:paddingRight="18dp">
 
-                                <ImageView
-                                    android:layout_marginRight="12dp"
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:src="@drawable/cate_carrot"/>
 
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="@font/pmedium"
-                                    android:text="Salad"
+                                    android:text="Tujuan Strategis"
                                     android:textColor="#212131"
-                                    android:textSize="16dp"/>
+                                    android:textSize="16dp" />
 
                             </LinearLayout>
 
@@ -228,8 +199,6 @@
                         </LinearLayout>
 
                     </HorizontalScrollView>
-
-
 
                 </LinearLayout>
 
@@ -247,7 +216,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/pbold"
-                        android:text="Menu Tebaru"
+                        android:text="Jurusan Di Polinela"
                         android:layout_marginBottom="12dp"
                         android:textColor="#212131"
                         android:textSize="16dp"/>
@@ -257,6 +226,7 @@
                         android:id="@+id/foodOrange"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:background="@drawable/bg_gray"
                         android:orientation="horizontal"
                         android:gravity="center_vertical"
                         android:layout_marginBottom="18dp">
@@ -265,7 +235,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="16dp"
-                            android:src="@drawable/tehjahe"/>
+                            android:src="@drawable/himapa"/>
 
                         <LinearLayout
                             android:layout_weight="1"
@@ -277,7 +247,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/pmedium"
-                                android:text="Teh Jahe"
+                                android:text="Budidaya Tanaman Pangan"
                                 android:textColor="#212131"
                                 android:textSize="16dp"/>
 
@@ -291,34 +261,13 @@
 
                         </LinearLayout>
 
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="@font/pmedium"
-                                android:text="4.7"
-                                android:layout_marginRight="4dp"
-                                android:textColor="#212131"
-                                android:textSize="16dp"/>
-
-
-                            <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@drawable/icon_star"/>
-
-                        </LinearLayout>
-
                     </LinearLayout>
 
                     <LinearLayout
                         android:id="@+id/foodGyoza"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:background="@drawable/bg_gray"
                         android:orientation="horizontal"
                         android:gravity="center_vertical"
                         android:layout_marginBottom="18dp">
@@ -327,7 +276,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="16dp"
-                            android:src="@drawable/ayamgeprek"/>
+                            android:src="@drawable/himabun"/>
 
                         <LinearLayout
                             android:layout_weight="1"
@@ -339,7 +288,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/pmedium"
-                                android:text="Ayam Geprek"
+                                android:text="Budidaya Tanaman Perkebunan"
                                 android:textColor="#212131"
                                 android:textSize="16dp"/>
 
@@ -350,37 +299,17 @@
                                 android:text="Makanan"
                                 android:textColor="#cbccd5"
                                 android:textSize="14dp"/>
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="@font/pmedium"
-                                android:text="4.7"
-                                android:layout_marginRight="4dp"
-                                android:textColor="#212131"
-                                android:textSize="16dp"/>
-
-
-                            <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@drawable/icon_star"/>
 
                         </LinearLayout>
 
                     </LinearLayout>
 
+
                     <LinearLayout
                         android:id="@+id/foodAvocado"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:background="@drawable/bg_gray"
                         android:orientation="horizontal"
                         android:gravity="center_vertical"
                         android:layout_marginBottom="18dp">
@@ -389,7 +318,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="16dp"
-                            android:src="@drawable/soto"/>
+                            android:src="@drawable/tektan"/>
 
                         <LinearLayout
                             android:layout_weight="1"
@@ -401,7 +330,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/pmedium"
-                                android:text="Soto Ayam"
+                                android:text="Teknologi Pertanian"
                                 android:textColor="#212131"
                                 android:textSize="16dp"/>
 
@@ -412,28 +341,6 @@
                                 android:text="Makanan"
                                 android:textColor="#cbccd5"
                                 android:textSize="14dp"/>
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="@font/pmedium"
-                                android:text="4.7"
-                                android:layout_marginRight="4dp"
-                                android:textColor="#212131"
-                                android:textSize="16dp"/>
-
-
-                            <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@drawable/icon_star"/>
 
                         </LinearLayout>
 
@@ -444,6 +351,7 @@
                         android:id="@+id/foodTeh"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:background="@drawable/bg_gray"
                         android:orientation="horizontal"
                         android:gravity="center_vertical"
                         android:layout_marginBottom="18dp">
@@ -452,7 +360,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginRight="16dp"
-                            android:src="@drawable/kwitiaw"/>
+                            android:src="@drawable/ternak"/>
 
                         <LinearLayout
                             android:layout_weight="1"
@@ -464,7 +372,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/pmedium"
-                                android:text="Kwitiaw"
+                                android:text="Peternakan"
                                 android:textColor="#212131"
                                 android:textSize="16dp"/>
 
@@ -483,23 +391,54 @@
                             android:layout_height="wrap_content"
                             android:orientation="horizontal">
 
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/foodTeh2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_gray"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_marginBottom="18dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="16dp"
+                            android:src="@drawable/ekbis"/>
+
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/pmedium"
-                                android:text="4.6"
-                                android:layout_marginRight="4dp"
+                                android:text="Ekonomi dan Bisnis"
                                 android:textColor="#212131"
                                 android:textSize="16dp"/>
 
-
-                            <ImageView
+                            <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/icon_star"/>
+                                android:fontFamily="@font/pregular"
+                                android:text="Makanan"
+                                android:textColor="#cbccd5"
+                                android:textSize="14dp"/>
 
                         </LinearLayout>
 
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                        </LinearLayout>
                     </LinearLayout>
 
                 </LinearLayout>
