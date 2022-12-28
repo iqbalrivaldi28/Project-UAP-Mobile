@@ -26,6 +26,9 @@ Pada Project Ujian Akhir Praktikum Mata Kuliah Pemograman Mobile kali ini saya b
 - Dan terakhr ada menu profile yang profil singkat terkait pembuat aplikasi wonderfull polinela
 
 
+
+selesai dan sudah dinilai :heavy_check_mark:
+
 ## Tampilan Aplikasi Wonderfull Polinela Apps
 
 - Tampilan Halaman Splash Screen
